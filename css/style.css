@@ -254,8 +254,8 @@ aside .wrapper .zen-resources{
   margin-bottom: -50px;
   content:"";
 }
-  
 }
+
 @media only screen and (max-width: 1050px) and (min-width: 769px){
   .page-wrapper{
     padding: 0 0 0 0;
@@ -270,11 +270,10 @@ aside .wrapper .zen-resources{
   height: 22em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -180px;
+  margin-top: -190px;
   margin-bottom: -50px;
   content:"";
 }
-  
 }
 
 @media only screen and (max-width: 768px){
@@ -316,21 +315,6 @@ aside .wrapper .zen-resources{
   explanation::before{
     background-image:url('http://i.imgur.com/6mExWqt.png');
   }
-  footer::before{
-  background-image:url('http://i.imgur.com/PY8sCEZ.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  display: block;
-  max-width: 100%; 
-  height: 22em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -180px;
-  margin-bottom: -50px;
-  content:"";
-}
-  
 }
 @media only screen and (max-width: 466px){
   footer::before{
@@ -347,5 +331,4 @@ aside .wrapper .zen-resources{
   margin-bottom: -50px;
   content:"";
 }
-  
 }
