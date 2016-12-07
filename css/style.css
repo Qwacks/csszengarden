@@ -1,1 +1,332 @@
-asdf
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+  text-align: center;
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #a1c3e5; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 3em; 
+	color: #5c7a98;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #5c7a98;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #5c7a98;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #5c7a98;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: url(http://i.imgur.com/2WVAELe.png) no-repeat top left; 
+  background-size: 100%;
+	margin: 0; 	
+  padding: 0; 
+	position: relative;
+	}
+
+.intro { 
+  margin-left: auto;
+  margin-right: auto;
+	}
+#zen-summary{
+  margin-left: auto;
+  margin-right: auto;
+}
+header h1 { 
+  margin-top: 60%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+	}
+header h2 { 
+	background: ; 
+	margin-top: 0px; 
+	margin-bottom: 0px; 
+	width: 0px; 
+	height: 0px; 
+	float: right;
+  color: #5c7a98;
+	text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+	}
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.summary {
+	clear: both; 
+	margin: 20px 20px 20px 20px; 
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+	}
+.summary p {
+	font: italic 1.1em/2.2 georgia; 
+	text-align: center;
+	}
+.preamble::before{
+  background-image: url('http://i.imgur.com/S0TQpHj.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  max-width: 100%; 
+  height: 14em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  content:"";
+}
+.preamble {
+	clear: right; 
+	}
+.preamble, .explanation, .benefits, .participation{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.requirements::before, .participation::before, .benefits::before, .explanation::before{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  max-width: 50%; 
+  height: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  margin-bottom: -50px;
+  content:"";
+}
+.participation::before{
+  background-image:url('http://i.imgur.com/tJdaEKr.png');
+}
+.explanation::before{
+  background-image: url('http://i.imgur.com/oPeBKxz.png');
+  height: 22em;
+  max-width: 70%;
+}
+.benefits::before{
+  background-image:url('http://i.imgur.com/9fN6H3u.png');
+}
+.requirements::before{
+  background-image:url('http://i.imgur.com/I9tf1Zl.png');
+}
+.requirements{
+  margin: 0 auto 0;
+  max-width: 70%;
+  padding: 40px 0 20em 0;
+  width: 100%;
+}
+
+footer{ 
+  background: #e5e0a1;
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+  z-index: 2;
+}
+footer::before{
+  background-image:url('http://i.imgur.com/PY8sCEZ.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  max-width: 100%; 
+  height: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
+  margin-bottom: -50px;
+  content:"";
+}
+footer a:link, footer a:visited {
+  background: #e5e0a1;
+	}
+aside{
+  background: #e5e0a1;
+  clear: both;
+  display: block;
+  float: left;
+  margin-bottom: -5px;
+  width: 100%;
+}
+aside .wrapper{
+  background: #e5e0a1;
+  background-size: 100% 100%;
+  margin: 0 auto 0;
+  max-width: 1040px;
+  padding: 40px 0 30px 0;
+  width: 100%;
+  z-index: 2;
+}
+
+aside .wrapper h3{
+  color: #e5e0a1;
+  font-size: 24px;
+  margin-top: 0;
+}
+aside .wrapper a {
+  color: #a1c3e5;
+}
+aside .wrapper a.designer-name{
+  color: #00374f;
+}
+aside .wrapper ul{
+  list-style: none;
+  padding: 0;
+}
+aside .wrapper ul li{
+  margin-bottom: 12px;
+}
+aside .wrapper ul li:last-child{
+  margin-bottom: 0;
+}
+aside .wrapper .design-selection{
+  float: left;
+  margin-right: 40px;
+  width: 50%;
+}
+aside .wrapper .design-selection .design-name{
+  display: block;
+}
+aside .wrapper .zen-resources{
+  margin-top: 40px;
+}
+@media only screen and (max-width: 1050px){
+  .page-wrapper{
+    padding: 0 0 0 0;
+  }
+  
+  footer::before{
+  background-image:url('http://i.imgur.com/PY8sCEZ.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  max-width: 100%; 
+  height: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -230px;
+  margin-bottom: -50px;
+  content:"";
+}
+  
+}
+
+@media only screen and (max-width: 768px){
+  
+  h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 3em; 
+	color: #5c7a98;
+	}
+  header{
+    text-align: center; 
+    margin: auto;
+    color: #5c7a98;
+    padding: 20px;
+	  text-indent: ;
+	  overflow: ;
+	}
+  .preamble{
+	clear: right; 
+	padding: 0 0 0 0;
+	}
+  .intro{
+    min-width: 80%;
+    width: 80%;
+  }  
+  body{
+  text-align: center;
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #a1c3e5; 
+	margin: 0; 
+	padding: 0;
+  }
+  .summary{
+    display: none;
+  }
+  explanation::before{
+    background-image:url('http://i.imgur.com/6mExWqt.png');
+  }
+  footer::before{
+  background-image:url('http://i.imgur.com/PY8sCEZ.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  max-width: 100%; 
+  height: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -210px;
+  margin-bottom: -50px;
+  content:"";
+}
+  
+}
+@media only screen and (max-width: 400px){
+  footer::before{
+  background-image:url('http://i.imgur.com/PY8sCEZ.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  max-width: 100%; 
+  height: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -200px;
+  margin-bottom: -50px;
+  content:"";
+}
+  
+}
