@@ -236,7 +236,7 @@ aside .wrapper .design-selection .design-name{
 aside .wrapper .zen-resources{
   margin-top: 40px;
 }
-@media only screen and (min-width: 1800px){
+@media only screen and (min-width: 1500px){
   footer::before{
   background-image:url('http://i.imgur.com/PY8sCEZ.png');
   background-repeat: no-repeat;
